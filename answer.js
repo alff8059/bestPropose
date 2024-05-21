@@ -37,8 +37,6 @@ $(document).ready(function () {
     if (page == 1) {
       if (answer != 6) {
         wrong(e);
-      } else {
-        location.href = "6.html";
       }
     } else if (page == 2) {
       if (answer.toLowerCase() == "love") {
