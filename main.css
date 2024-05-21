@@ -7,11 +7,21 @@ body {
   color: #32232d;
 }
 
+@media screen and (width >= 750px) {
+  .divBody {
+    width: 600px;
+    padding: 30px 50px 30px 50px;
+  }
+}
+@media screen and (width < 750px) {
+  .divBody {
+    width: 95%;
+    padding: 10px 20px 10px 20px;
+  }
+}
 .divBody {
-  width: 600px;
   border: 1px solid #beced4;
   background-color: #d7e8ee;
-  padding: 30px 50px 30px 50px;
 }
 .contents {
   display: flex;
@@ -62,7 +72,6 @@ body {
   margin: 50px 10px 10px 10px;
   width: 80%;
   border: 1px solid #beced4;
-  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,7 +94,7 @@ body {
 
 input[type="text"] {
   margin: 10px;
-  width: 300px;
+  width: 90%;
 }
 
 button {
