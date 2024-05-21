@@ -31,7 +31,7 @@ $(document).ready(function () {
     const page = $(".page").val();
     const answer = $(".answer").val();
 
-    e.preventDefault();
+    //e.preventDefault();
     // alert(page);
     // alert(answer);
     if (page == 1) {
