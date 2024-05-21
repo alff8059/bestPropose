@@ -11,9 +11,21 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="main.css" />
+    <style>
+      @media screen and (width >= 800px) {
+        .mainImg {
+          width: 750px;
+        }
+      }
+      @media screen and (width < 800px) {
+        .mainImg {
+          width: 95%;
+        }
+      }
+    </style>
   </head>
   <body>
-    <img src="img/main.jpg" style="width: 600px" />
+    <img src="img/main.jpg" class="mainImg" />
     <div
       class="bebas-neue-regular hvBlue"
       style="font-size: 30px; margin-top: 10px; cursor: pointer"

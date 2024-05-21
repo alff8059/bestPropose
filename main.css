@@ -51,6 +51,7 @@ body {
 
 .hvBlue:hover {
   color: blue;
+  cursor: pointer;
 }
 
 .question-title {
