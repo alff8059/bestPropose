@@ -27,18 +27,6 @@ $(document).ready(function () {
     hint();
   });
 
-  $(".button-answer-test").click(function (e) {
-    const page = $(".page").val();
-    const answer = $(".answer").val();
-    if (page == 1) {
-      if (answer != 6) {
-        wrong(e);
-      } else {
-        location.href = "6.html";
-      }
-    }
-  });
-
   $(".button-answer").click(function (e) {
     const page = $(".page").val();
     const answer = $(".answer").val();
@@ -50,7 +38,7 @@ $(document).ready(function () {
       if (answer != 6) {
         wrong(e);
       } else {
-        location.href = "6.html";
+        $("#frm").submit();
       }
     } else if (page == 2) {
       if (answer.toLowerCase() == "love") {
